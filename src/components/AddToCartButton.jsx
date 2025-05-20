@@ -5,7 +5,7 @@ const AddToCartButton = ({ selectedVariants, productId }) => {
   const [added, setAdded] = useState(false)
 
   const handleAddToCart = () => {
-    // Simular chamada à API
+    
     setIsAdding(true)
     
     setTimeout(() => {
